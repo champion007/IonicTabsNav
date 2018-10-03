@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "99341648295",
+    "firebase_url": "https://mobilenotifications-665cb.firebaseio.com",
+    "project_id": "mobilenotifications-665cb",
+    "storage_bucket": "mobilenotifications-665cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99341648295:android:f4633e567274b517",
+        "android_client_info": {
+          "package_name": "com.mywatch.notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99341648295-d2k23j1rnpi26nll5p61dr9o7baleedc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMZzHzsOUfkQqMcvaZoxMFgoAVay-wlgE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

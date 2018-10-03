@@ -1,0 +1,56 @@
+// http://ionicframework.com/docs/theming/
+@import "~@ionic/angular/css/core.css";
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+.alert-wrapper.sc-ion-alert-md{
+    background-color: #E91E63;
+    color: #fff;
+    font-size: 20px;
+}
+.header-md::after {
+    background-image: none;
+}
+.alert-title.sc-ion-alert-md, .alert-input-group.sc-ion-alert-md, .alert-message.sc-ion-alert-md, .alert-button.sc-ion-alert-md{
+    color: #fff;
+}
+
+.header ion-toolbar:last-child {
+    --border-width: 0 0 0px;
+}
+ion-toolbar{
+    --padding-top: 4px;
+    --padding-bottom: 4px;
+    --padding-start: 4px;
+    --padding-end: 4px;
+    --min-height: 44px;
+}
+ion-title{
+    --padding-top: 4px;
+    --padding-bottom: 4px;
+    --padding-start: 4px;
+    --padding-end: 4px;
+    --min-height: 44px;
+    left: 0;
+    top: 0;
+    padding: 0 90px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -.03em;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    pointer-events: none;
+}

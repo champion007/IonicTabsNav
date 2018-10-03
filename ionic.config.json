@@ -1,0 +1,7 @@
+{
+  "name": "MyWatch",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
